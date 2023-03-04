@@ -2,7 +2,7 @@ new Promise<void>(function (resolve, reject) {
   // console.log(1)
   setTimeout(() => {
     console.log(1)
-  }, 0)
+  }, 100)
   resolve()
 })
   .then(function () {
